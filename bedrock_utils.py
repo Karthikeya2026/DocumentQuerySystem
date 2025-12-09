@@ -13,7 +13,7 @@ bedrock_kb = boto3.client(
     service_name='bedrock-agent-runtime',
     region_name='us-west-2'  # Replace with your AWS region
 )
-
+#valid prompt
 def valid_prompt(prompt, model_id):
     try:
 
