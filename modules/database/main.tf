@@ -65,10 +65,11 @@ resource "aws_security_group" "aurora_sg" {
 resource "random_password" "master_password" {
   length  = 16
   special = true
+  override_special = "!#$%^&*()-_=+<>?"
 }
 
 resource "aws_secretsmanager_secret" "aurora_secret" {
-  name = "${var.cluster_identifier}"
+  name = "${var.cluster_identifier}-v2"
   recovery_window_in_days = 0
 }
 

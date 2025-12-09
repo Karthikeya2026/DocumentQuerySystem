@@ -41,7 +41,6 @@ def valid_prompt(prompt, model_id):
                 ]
             }
         ]
-
         response = bedrock.invoke_model(
             modelId=model_id,
             contentType='application/json',
