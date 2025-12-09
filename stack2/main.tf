@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-west-2"  
 }
-
+#deploy stack1
 module "bedrock_kb" {
   source = "../modules/bedrock_kb" 
 

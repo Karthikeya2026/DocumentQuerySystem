@@ -24,7 +24,7 @@ module "vpc" {
     Environment = "dev"
   }
 }
-
+#deploy stack1
 module "aurora_serverless" {
   source = "../modules/database"
 
