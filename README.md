@@ -79,7 +79,7 @@ project-root/
 
 1. Clone this repository to your local machine.
 
-2. Navigate to the project Stack 1. This stack includes VPC, Aurora servlerless and S3
+2. Navigate to the project Stack 1. This stack includes VPC, Aurora servlerless and s3
 
 3. Initialize Terraform:
    ```
@@ -140,7 +140,6 @@ To use it:
 2. Optionally, update the `prefix` variable if you want to upload to a specific path in the bucket.
 3. Run `python scripts/upload_to_s3.py`.
 
-## Complete chat app
 
 ### Complete invoke model and knoweldge base code
 - Open the bedrock_utils.py file and the following functions:
